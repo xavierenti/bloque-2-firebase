@@ -1,16 +1,23 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.ModuloDosFirebase" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.ModuloDosFirebase" parent="Theme.MaterialComponents.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">@color/Grey</item>
+        <item name="colorPrimaryVariant">@color/LighterGrey</item>
+        <item name="colorOnPrimary">@color/baseLight</item>
+        <item name="android:textColorPrimary">?attr/colorOnPrimary</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">@color/baseLight</item>
+        <item name="colorSecondaryVariant">@color/LighterLight</item>
+        <item name="colorOnSecondary">@color/Grey</item>
+        <item name="android:textColorSecondary">?attr/colorOnSecondary</item>
+        <!--Surface colors-->
+        <item name="colorSurface">@color/Grey</item>
+        <item name="colorOnSurface">?attr/colorSecondary</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">@color/Grey</item>
+        <!--Background app-->
+        <item name="android:colorBackground">?attr/colorPrimary</item>
         <!-- Customize your theme here. -->
     </style>
 </resources>
