@@ -1,11 +1,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base light application theme. -->
+    <style name="Theme.ModuloDosFirebase" parent="Theme.ModuloDosFirebaseBase"/>
     <!-- Base application theme. -->
-    <style name="Theme.ModuloDosFirebase" parent="Theme.MaterialComponents.NoActionBar">
+    <style name="Theme.ModuloDosFirebaseBase" parent="Theme.MaterialComponents.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/baseLight</item>
         <item name="colorPrimaryVariant">@color/LighterLight</item>
         <item name="colorOnPrimary">@color/Grey</item>
-        <item name="android:textColorPrimary">?attr/colorOnPrimary</item>
+        <item name="android:textColorPrimary">@color/baseLight</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/Grey</item>
         <item name="colorSecondaryVariant">@color/LighterGrey</item>
@@ -18,6 +20,51 @@
         <item name="android:statusBarColor">@color/Grey</item>
         <!--Background app-->
         <item name="android:colorBackground">?attr/colorPrimary</item>
+        <!--Shadow's Setup-->
+        <item name="android:ambientShadowAlpha">0.7</item>
+        <item name="android:spotShadowAlpha">0.7</item>
+        <!-- -->
+
         <!-- Customize your theme here. -->
+        <item name="toolbarStyle">@style/ModuloDosFirebase.Toolbar</item>
+        <item name="materialCardViewStyle">@style/ModuloDosFirebase.CardView</item>
+        <item name="textInputStyle">@style/ModuloDosFirebase.Input</item>
+        <!--Buttons-->
+        <item name="materialButtonStyle">@style/ModuloDosFirebase.Button</item>
+        <item name="floatingActionButtonStyle">@style/ModuloDosFirebase.FloatingButton</item>
+        <item name="extendedFloatingActionButtonStyle">@style/ModuloDosFirebase.ExtendedFloatingButton</item>
+    </style>
+
+    <style name="ModuloDosFirebase.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">@dimen/shadow_elevation</item>
+    </style>
+    <style name="ModuloDosFirebase.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/Grey</item>
+        <item name="android:elevation">@dimen/shadow_elevation</item>
+    </style>
+    <style name="ModuloDosFirebase.Input" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxStrokeWidth">@dimen/Tiny</item>
+        <item name="boxStrokeWidthFocused">@dimen/Tiny</item>
+        <item name="boxStrokeErrorColor">@color/baseRed</item>
+        <item name="android:textColorHint">@color/baseLight</item>
+        <item name="hintTextColor">@color/LighterLight</item>
+    </style>
+    <!--Buttons-->
+    <style name="ModuloDosFirebase.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/Grey</item>
+        <item name="android:elevation">@dimen/shadow_elevation</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">@color/baseLight</item>
+        <item name="rippleColor">?attr/colorPrimary</item>
+    </style>
+    <style name="ModuloDosFirebase.FloatingButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/Grey</item>
+        <item name="android:textColor">@color/baseLight</item>
+        <item name="tint">@color/baseLight</item>
+    </style>
+    <style name="ModuloDosFirebase.ExtendedFloatingButton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton">
+        <item name="backgroundTint">@color/Grey</item>
+        <item name="android:textColor">@color/baseLight</item>
     </style>
 </resources>

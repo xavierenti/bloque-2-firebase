@@ -1,11 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.ModuloDosFirebase" parent="Theme.MaterialComponents.NoActionBar">
+    <style name="Theme.ModuloDosFirebase" parent="Theme.ModuloDosFirebaseBase">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/Grey</item>
         <item name="colorPrimaryVariant">@color/LighterGrey</item>
         <item name="colorOnPrimary">@color/baseLight</item>
-        <item name="android:textColorPrimary">?attr/colorOnPrimary</item>
+        <item name="android:textColorPrimary">@color/baseLight</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/baseLight</item>
         <item name="colorSecondaryVariant">@color/LighterLight</item>
@@ -14,10 +14,7 @@
         <!--Surface colors-->
         <item name="colorSurface">@color/Grey</item>
         <item name="colorOnSurface">?attr/colorSecondary</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">@color/Grey</item>
-        <!--Background app-->
-        <item name="android:colorBackground">?attr/colorPrimary</item>
+
         <!-- Customize your theme here. -->
     </style>
 </resources>
