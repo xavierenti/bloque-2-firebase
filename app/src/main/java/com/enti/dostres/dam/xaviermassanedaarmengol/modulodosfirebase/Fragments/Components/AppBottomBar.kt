@@ -39,7 +39,7 @@ class AppBottomBar : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        bottomAppBar.setOnItemSelectedListener {menuItem->
+        bottomAppBar.setOnItemSelectedListener {menuItem ->
         AppToolbar.Get().toolbar.title = menuItem.title
             if(menuItem.itemId != bottomAppBar.selectedItemId) {
 
