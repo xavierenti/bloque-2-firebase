@@ -6,10 +6,13 @@
     <dimen name="small">8dp</dimen>
     <dimen name="medium">16dp</dimen>
     <dimen name="large">32dp</dimen>
+    <dimen name="giant">48dp</dimen>
     <!--Margin Values-->
     <dimen name="margin_normal">@dimen/medium</dimen>
 
     <!--Shadow Values-->
     <dimen name="shadow_elevation">@dimen/small</dimen>
+
+    <dimen name="button_bar_icon">@dimen/giant</dimen>
 
 </resources>
