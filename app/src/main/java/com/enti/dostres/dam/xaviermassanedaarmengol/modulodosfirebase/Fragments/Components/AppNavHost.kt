@@ -20,6 +20,7 @@ class AppNavHost : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        instance = this
     }
 
     override fun onCreateView(

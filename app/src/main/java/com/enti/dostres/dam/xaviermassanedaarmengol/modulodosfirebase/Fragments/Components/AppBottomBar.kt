@@ -40,7 +40,7 @@ class AppBottomBar : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         bottomAppBar.setOnItemSelectedListener {menuItem ->
-        AppToolbar.Get().toolbar.title = menuItem.title
+            AppToolbar.Get().toolbar.title = menuItem.title
             if(menuItem.itemId != bottomAppBar.selectedItemId) {
 
                 when (menuItem.itemId) {

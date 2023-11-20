@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "66292401036",
+    "project_id": "modulodosfirevase",
+    "storage_bucket": "modulodosfirevase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66292401036:android:b25a158e9f14be958f4ca9",
+        "android_client_info": {
+          "package_name": "com.enti.dostres.dam.xaviermassanedaarmengol.modulodosfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnz6Q_2FqfVT_QNfBCm5o5vl37MWptG38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
