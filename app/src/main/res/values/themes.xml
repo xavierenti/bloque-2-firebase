@@ -41,6 +41,7 @@
     <style name="ModuloDosFirebase.Toolbar" parent="Widget.MaterialComponents.Toolbar">
         <item name="android:background">@color/Grey</item>
         <item name="android:elevation">@dimen/shadow_elevation</item>
+        <item name="navigationIconTint">@color/baseLight</item>
     </style>
     <style name="ModuloDosFirebase.Input" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
         <item name="boxStrokeWidth">@dimen/Tiny</item>

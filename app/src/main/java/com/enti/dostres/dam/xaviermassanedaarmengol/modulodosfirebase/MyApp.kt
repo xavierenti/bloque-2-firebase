@@ -16,6 +16,13 @@ class MyApp : Application(){
         //enviarle al firebase que la app se ha ejecutado
         MyFirebase.init(Instance)
         MyFirebase.analytics.logOpenApp()
+
+        MyFirebase.crashlytics.logSimpleError("Subnormal error"){
+            key("Subnormal Name", "Abraham")
+            key("Is Subnormal", true)
+            key("Anormal", 1) 
+        }
+
     }
 
 
