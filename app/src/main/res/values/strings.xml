@@ -4,4 +4,12 @@
     <string name="field_password_label">password</string>
     <string name="home_title">home</string>
     <string name="chat_title">chat</string>
+    <string name="loguin_label">Login</string>
+    <string name="field_verify_password_label">Verify Password\n</string>
+    <string name="loguin_button">LOGUIN</string>
+    <string name="register_button">Register</string>
+    <string name="back_to_loguin_button">back to loguin</string>
+    <string name="finish_register_button">finish register</string>
+    <string name="user_loguin_message">hello %s you are logged</string>
+    <string name="loguin_error">Error on login</string>
 </resources>

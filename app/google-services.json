@@ -12,7 +12,20 @@
           "package_name": "com.enti.dostres.dam.xaviermassanedaarmengol.modulodosfirebase"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "66292401036-74gdj03me0lnd15jn99m25mbgpsshu5j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enti.dostres.dam.xaviermassanedaarmengol.modulodosfirebase",
+            "certificate_hash": "bb6c949a94e052657fcc211efbcf3af9de5b4f8d"
+          }
+        },
+        {
+          "client_id": "66292401036-scuq1l6kcjh4hjp5sjablf4r9tee5jfp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAnz6Q_2FqfVT_QNfBCm5o5vl37MWptG38"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66292401036-scuq1l6kcjh4hjp5sjablf4r9tee5jfp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

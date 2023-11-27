@@ -5,36 +5,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <RelativeLayout
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/navigation_drawer_container"
+        android:name="com.enti.dostres.dam.xaviermassanedaarmengol.modulodosfirebase.Fragments.Components.AppDrawer"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <androidx.fragment.app.FragmentContainerView
-            android:id="@+id/materialToolbar"
-            android:name="com.enti.dostres.dam.xaviermassanedaarmengol.modulodosfirebase.Fragments.Components.AppToolbar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            tools:layout="@layout/component_toolbar"/>
-
-        <androidx.fragment.app.FragmentContainerView
-            android:id="@+id/component_navhost_container"
-            android:name="com.enti.dostres.dam.xaviermassanedaarmengol.modulodosfirebase.Fragments.Components.AppNavHost"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/materialToolbar"
-            android:layout_above="@id/materialToolbar"/>
-
-        <androidx.fragment.app.FragmentContainerView
-            android:id="@+id/componentBottomNavigationBar"
-            android:name="com.enti.dostres.dam.xaviermassanedaarmengol.modulodosfirebase.Fragments.Components.AppBottomBar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            tools:layout="@layout/component_bottombar"/>
-
-
-
-    </RelativeLayout>
+        android:layout_height="match_parent"
+        android:layout="@layout/component_navigationdrawer"
+        />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

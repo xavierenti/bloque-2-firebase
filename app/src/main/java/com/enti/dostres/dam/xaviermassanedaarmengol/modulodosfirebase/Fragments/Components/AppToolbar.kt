@@ -42,6 +42,10 @@ class AppToolbar:Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        toolbar.setNavigationOnClickListener {menuItem ->
+            AppDrawer.get().Open()
+        }
+
         toolbar.setOnMenuItemClickListener { menuItem ->
 
             when(menuItem.itemId){

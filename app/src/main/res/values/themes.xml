@@ -26,13 +26,23 @@
         <!-- -->
 
         <!-- Customize your theme here. -->
+        <item name="navigationViewStyle">@style/ModuloDosFirebase.Drawer </item>
+
         <item name="toolbarStyle">@style/ModuloDosFirebase.Toolbar</item>
         <item name="materialCardViewStyle">@style/ModuloDosFirebase.CardView</item>
         <item name="textInputStyle">@style/ModuloDosFirebase.Input</item>
+        <item name="snackbarStyle">@style/ModuloDosFirebase.Snackbar</item>
+        <item name="snackbarTextViewStyle">@style/ModuloDosFirebase.Snackbar.TextView</item>
         <!--Buttons-->
         <item name="materialButtonStyle">@style/ModuloDosFirebase.Button</item>
         <item name="floatingActionButtonStyle">@style/ModuloDosFirebase.FloatingButton</item>
         <item name="extendedFloatingActionButtonStyle">@style/ModuloDosFirebase.ExtendedFloatingButton</item>
+    </style>
+
+    <style name="ModuloDosFirebase.Drawer" parent="Widget.MaterialComponents.NavigationView">
+        <item name="itemIconTint">@color/baseLight</item>
+        <item name="itemTextColor">@color/baseLight</item>
+        <item name="elevation">@dimen/shadow_elevation</item>
     </style>
 
     <style name="ModuloDosFirebase.CardView" parent="Widget.MaterialComponents.CardView">
@@ -68,4 +78,11 @@
         <item name="backgroundTint">@color/Grey</item>
         <item name="android:textColor">@color/baseLight</item>
     </style>
+    <style name="ModuloDosFirebase.Snackbar" parent="Widget.MaterialComponents.Snackbar">
+        <item name="elevation">@dimen/shadow_elevation</item>
+    </style>
+    <style name="ModuloDosFirebase.Snackbar.TextView" parent="Widget.MaterialComponents.Snackbar.TextView">
+        <item name="android:textColor">@color/baseLight</item>
+    </style>
+
 </resources>
